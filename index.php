@@ -1,3 +1,11 @@
 <?php
 $test = "Hello php";
-echo $test;
+$name = "Dmytro";
+
+function test()
+{
+    for ($i = 0; $i < 5; $i++) {
+        echo "$i";
+    }
+}
+test();
