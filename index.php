@@ -1,8 +1,14 @@
 <?php
+$test = "Hello php";
+$name = "Dmytro";
 
 function test()
 {
-    echo 'hello world';
-}
 
+    for ($i = 0; $i < 5; $i++) {
+        echo "$i";
+    }
+
+
+}
 test();
