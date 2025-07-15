@@ -1,3 +1,8 @@
 <?php
-$test = "Hello php";
-echo $test;
+
+function test()
+{
+    echo 'hello world';
+}
+
+test();
